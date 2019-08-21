@@ -12,7 +12,7 @@ The provided dataset came from [chinese-poetry project](https://github.com/chine
 Model training
 ------------
 
-User can modify the [train_model.py](/train_model.py) and run the file to train your own model. More specific details are provided in the file. Below is the setting parameters for the trained one-layer LSTM model.
+User can modify the [train_model.py](/train_model.py) and run the file to train your own model. The default optimizer is "sgd", users can also change the optimizer to "adam" or other optimizers supported by MXNET in the [modeling.py](/modeling.py). More specific parameters details are provided in the file. Below is the setting parameters for the trained one-layer LSTM model.
 
 ```
 model_ind, num_hiddens, num_layer, bidirectional = "LSTM", 360, 1, False
