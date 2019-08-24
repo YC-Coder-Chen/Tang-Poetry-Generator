@@ -7,7 +7,7 @@ Users can modify the model setting to create their own Tang-Poetry generator. A 
 Data
 ------------
 
-The provided dataset came from [chinese-poetry project](https://github.com/chinese-poetry/chinese-poetry), a great database contains almost all the ancient poetries in Chinese. The provided trained LSTM model is based on 1.4k five-characters eight-lines poems from the database. Users can change the [data_cleaning.py](/data_cleaning.py) file to create your own training data.
+The provided dataset came from [chinese-poetry project](https://github.com/chinese-poetry/chinese-poetry), a great database contains almost all the ancient poetries in Chinese. The provided trained LSTM model is based on 14k five-characters eight-lines poems from the database. Users can change the [data_cleaning.py](/data_cleaning.py) file to create your own training data.
 
 Model training
 ------------
